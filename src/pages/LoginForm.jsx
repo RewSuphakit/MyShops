@@ -5,7 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 import Swal from 'sweetalert2';
 import { toast } from 'react-toastify';
 import { MdLogin } from "react-icons/md";
-
+import Logo from '../assets/img.png';
 export default function LoginForm() {
   const { setUser } = useAuth();
   const navigate = useNavigate();
@@ -162,8 +162,8 @@ export default function LoginForm() {
             </div>
        
           <div className="flex-1  text-center hidden lg:flex">
-            <div className=" xl:m-16 w-full bg-contain bg-center bg-no-repeat animate-jump animate-once animate-ease-in-out"
-              style={{ backgroundImage: "url('https://media.discordapp.net/attachments/822871594091151401/1204441126807801947/img.png?ex=65e73336&is=65d4be36&hm=c3c183dc6eeb16513569fd3b85f95b24667d36a37ac25863b3786423093dbba9&=&format=webp&quality=lossless&width=1052&height=701')", }}>
+            <div className=" xl:m-16 w-full bg-contain bg-center bg-no-repeat animate-jump animate-once animate-ease-in-out">
+             <img src={Logo} alt="Logo Cart" />
             </div>
           </div>
         </div>

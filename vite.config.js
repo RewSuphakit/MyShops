@@ -5,8 +5,6 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: "/MyShops/",
   plugins: [
-    react(),
-    reactRefresh(),
-    envPlugin()
+    react()
   ],
 })

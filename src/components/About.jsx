@@ -1,5 +1,5 @@
 import React from "react";
-
+import Rew from '../assets/Rew.png'
 const About = () => {
     return (
         <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
@@ -21,8 +21,8 @@ const About = () => {
                 <div className="w-full lg:w-8/12 lg:pt-8">
                     <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 lg:gap-4 shadow-lg rounded-md">
                         <div className="p-4 pb-6 flex justify-center flex-col items-center">
-                            <img className="md:block hidden" src="https://scontent.fkkc2-1.fna.fbcdn.net/v/t39.30808-6/284691342_1668697256824148_6402032171998937775_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeFvKnuOwR0t-gSHOPVufakE82cBJobfCBzzZwEmht8IHH0mIMxfKN5CUg1Jr8yegY6u-ssXepoqGSiWNOPBtsDR&_nc_ohc=4ZPXCtP1Jr8AX_nNaWl&_nc_ht=scontent.fkkc2-1.fna&oh=00_AfCMBwgoIOt51RqhllUeVU4oqZ3q28qnHgi88z_K_EvBJw&oe=65E6DB9B" alt="Alexa featured Img" />
-                            <img className="md:hidden block" src="https://scontent.fkkc2-1.fna.fbcdn.net/v/t39.30808-6/284691342_1668697256824148_6402032171998937775_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeFvKnuOwR0t-gSHOPVufakE82cBJobfCBzzZwEmht8IHH0mIMxfKN5CUg1Jr8yegY6u-ssXepoqGSiWNOPBtsDR&_nc_ohc=4ZPXCtP1Jr8AX_nNaWl&_nc_ht=scontent.fkkc2-1.fna&oh=00_AfCMBwgoIOt51RqhllUeVU4oqZ3q28qnHgi88z_K_EvBJw&oe=65E6DB9B" alt="Alexa featured Img" />
+                            <img className="md:block hidden" src={Rew} alt="Supahkit Img" />
+                            <img className="md:hidden block" src={Rew} alt="Supahkit Img" />
                             <p className="font-medium text-xl leading-5 text-gray-800 mt-4">REW</p>
                         </div>
                      
